@@ -275,6 +275,7 @@ h1 {
 .card__price {
   display: flex;
   gap: 16px;
+  font-size: 22px;
 }
 
 .price_new-price {
@@ -319,7 +320,10 @@ h1 {
   }
 
   .card__action {
-    width: 126px;
+    left: 10px;
+    right: 151px;
+    width: auto;
+    min-width: 75px;
   }
 
   .card__more {
@@ -354,6 +358,17 @@ h1 {
 
   .card__image img {
     max-width: 320px;
+  }
+
+  .card__price {
+    gap: 10px;
+    font-size: 16px;
+  }
+
+  .price_old-price {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
   }
 }
 
